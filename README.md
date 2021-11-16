@@ -1,4 +1,4 @@
-# goodbank
+# Good Bank
 
 Good Bank is software to manage a very simple bank that allows accounts to be created and allows users to deposit or withdraw funds from their accounts. An administrator may see all customer data. Very simple security ensures that users have a valid password to log in.
 
