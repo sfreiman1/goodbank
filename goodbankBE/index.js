@@ -6,7 +6,7 @@ var dal     = require('./dal.js');
 
 // used to serve static files from public directory
 
-// app.use(express.static('public'));
+app.use(express.static('public'));
 
 app.use(cors());
 
