@@ -9,7 +9,8 @@
     "start": "nodemon index.js"
   },
   "engines": {
-    "node": "14.18.1"
+    "node": "14.15.x",
+    "npm": "6.x"
   },
   "author": "abel@mit.edu",
   "license": "MIT",
