@@ -21,7 +21,8 @@
     "express": "^4.17.1",
     "lowdb": "^1.0.0",
     "mongodb": "^3.7.3",
-    "react-router-dom": "^6.0.2"
+    "react-router-dom": "^6.0.2",
+    "nodemon": "^2.0.12"
   },
   "keywords": [
     "example",
