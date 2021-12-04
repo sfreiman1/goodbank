@@ -9,7 +9,7 @@
     "start": "nodemon index.js"
   },
   "engines": {
-    "node": "10.22.1"
+    "node": "14.18.1"
   },
   "author": "abel@mit.edu",
   "license": "MIT",
@@ -22,10 +22,14 @@
     "mongodb": "^3.7.3",
     "react-router-dom": "^6.0.2"
   },
-  "keywords": [],
+  "keywords": [
+    "example",
+    "heroku"
+  ],
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
-    "http-server": "^14.0.0"
+    "http-server": "^14.0.0",
+    "nodemon": "2.0.15"
   }
 }

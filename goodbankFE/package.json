@@ -19,6 +19,9 @@
     "web-vitals": "^1.1.2",
     "yup": "^0.32.9"
   },
+  "engines": {
+    "node": "10.22.1"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
