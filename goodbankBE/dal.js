@@ -11,7 +11,7 @@ client.connect();
     console.log("Connected successfully to db server");
 
     // connect to myproject database
-    db = client.db('myproject');
+    db = client.db('goodbank');
 // });
 
 // create user account using the collection.insertOne function
