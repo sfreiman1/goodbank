@@ -5,6 +5,7 @@ let db = null;
 // connect to mongo
 const uri = process.env.MONGODB_URI;
 const client = new MongoClient(uri, {useUnifiedTopology: true});
+client.connect();
 
 // MongoClient.connect(url, { useUnifiedTopology: true }, function (err, client) {
     console.log("Connected successfully to db server");
