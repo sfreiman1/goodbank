@@ -5,17 +5,27 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "dev": "nodemon app.js"
+    "dev": "nodemon index.js",
+    "start": "nodemon index.js"
+  },
+  "engines": {
+    "node": "10.22.1"
   },
   "author": "abel@mit.edu",
   "license": "MIT",
   "dependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.16.0",
     "cors": "^2.8.5",
+    "dal": "^0.1.0",
     "express": "^4.17.1",
     "lowdb": "^1.0.0",
     "mongodb": "^3.7.3",
-    "nodemon": "^2.0.14",
-    "react-router-dom": "^6.0.1"
+    "react-router-dom": "^6.0.2"
   },
-  "keywords": []
+  "keywords": [],
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "http-server": "^14.0.0"
+  }
 }
