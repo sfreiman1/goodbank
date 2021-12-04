@@ -6,10 +6,10 @@
   "scripts": {
     "test": "jest",
     "dev": "nodemon index.js",
-    "start": "nodemon index.js"
+    "start": "node index.js"
   },
   "engines": {
-    "node": "14.15.x",
+    "node": "10.22.x",
     "npm": "6.x"
   },
   "author": "abel@mit.edu",
@@ -31,6 +31,6 @@
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
     "http-server": "^14.0.0",
-    "nodemon": "2.0.15"
+    "nodemon": "2.0.12"
   }
 }
